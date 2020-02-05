@@ -1,0 +1,12 @@
+kajak,5.5,45
+Canadier,12,180
+Kajak,5.4,62
+kajak,12,65
+canadier,10,60
+Drachenboot,23,120
+outtrigger,8.2,45
+ruderboot,5.3,38
+SUP,5.4,78
+Schlauchboot,3.4,88
+tretboot,3.25,45
+kajak,9,59
