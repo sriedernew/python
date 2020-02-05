@@ -10,8 +10,10 @@ def main():
           print(x.lower().split(",")[0])
           mw = mw+float(x.split(",")[1])
         text = "im Mittel war ich {} km unterweg"
+
 # Mittelwert mit summe und len
         print(text.format(round(mw/len(fl),2)))
+
 # mit numpy
         ar_km = []
         ar_time = []
@@ -32,15 +34,18 @@ def main():
 
         text = "numpy: {} Prozent der zu erwartenden gepaddelten km könnten den Wert {} haben, wenns nach der Normalverteilung geht."
         print(text.format(round(numpy.percentile(ar_km,20),2),20))
+
 # Grafik plotten
         print("Chart 1")
         x = numpy.random.uniform(0.0, 5.0, 250)
         plt.hist(x, 100)
         plt.show()
+
 # geht das auch mit ar_km
         print("Chart 2")
         plt.hist(ar_km, 10)
         plt.show()
+
 # geht das auch mit ar_km und numpy
         x = numpy.random.normal(numpy.min(ar_km),numpy.median(ar_km),250)
         print("Chart 3")
@@ -62,8 +67,12 @@ def main():
         mymodel = list(map(myfunc, ar_time))
 
         plt.scatter(ar_time, ar_km)
-        plt.plot(ar_time, mymodel)
+        plt.plot(ar_time,mymodel)
+        plt.legend(["linie","punkte"])
+        plt.xlabel('Minuten')
+        plt.ylabel('Km')
         plt.show()
+        
 # damit ich main nicht extra aufrufen muß
 if __name__ == "__main__":
   main()
