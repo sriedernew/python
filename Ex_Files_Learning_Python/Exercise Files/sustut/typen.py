@@ -41,7 +41,7 @@ def main():
     print(x)
     print(type(x))
     print(x["name"])
-    print(x."name")
+    #print(x.name)
 
     # Range = von 1 bis 10
     x = range(20)

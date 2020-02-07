@@ -1,0 +1,2 @@
+https://www.python-kurs.eu/matplotlib.php
+https://www.python-course.eu/python3_packages.php

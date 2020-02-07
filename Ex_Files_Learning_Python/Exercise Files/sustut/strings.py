@@ -12,7 +12,7 @@ def main():
     print(s[1:4]) # Slicing
     print(s[-4:-1]) # negativ Slicing
 
-# die Suche dem großem S
+# die Suche nach dem großem S
     x = "S" in s
     print(x)
     x = "S" not in s
@@ -23,7 +23,7 @@ def main():
     print(len(s))
 
 # Trim heißt hier Strip
-    s = " Hallo Welt! Hallo Susann "
+    s = " Hallo Welt! Hallo Susann."
     print(s)
     print(s.strip())
 

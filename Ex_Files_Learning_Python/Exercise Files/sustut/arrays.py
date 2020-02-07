@@ -8,6 +8,7 @@ def main():
     print(schiffe[1])
     print(len(schiffe))
     print(str(schiffe))
+
     nummern = [1,2,3,4,5]
     print(type(nummern))
     print(nummern)
@@ -34,7 +35,7 @@ def main():
     for x in schiffe:
       print(x)
 
-# wiede voll
+# wieder voll
     print("------------------------------------------------------------------------------")
     schiffe = ["QM II","Titatic","United Staats","Deutschland","Frau Glitscher"]
     for x in schiffe:
@@ -118,9 +119,9 @@ def main():
     print(type(schiffe))
     print(schiffe["schiff3"]["name"][1])
 
-# damit ich main nicht extra aufrufen muß
 def sortFunc(e):
     return len(e)
-
+    
+# damit ich main nicht extra aufrufen muß
 if __name__ == "__main__":
   main()

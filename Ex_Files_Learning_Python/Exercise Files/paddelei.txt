@@ -1,0 +1,12 @@
+Susann,Kajak,5.4,45
+Elmo,SUP,5.4,80
+Susann,Kajak,12,82
+Susann,Kajak,12,79
+Susann,Kajak,12,76
+Susann,Kajak,12,82
+Elmo,SUP,12,168
+Elmo,SUP,4.2,55
+Martin,Segelboot,30,120
+Anna,Canadier,10,120
+Anna,Canadier,8,60
+test,test,5,35

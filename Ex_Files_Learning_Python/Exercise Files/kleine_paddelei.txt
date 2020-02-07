@@ -10,3 +10,6 @@ SUP,5.4,78
 Schlauchboot,3.4,88
 tretboot,3.25,45
 kajak,9,59
+SUP,5.4,45
+Drachenboot,12,74
+Kajak,9,39
